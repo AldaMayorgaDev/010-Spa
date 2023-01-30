@@ -50,5 +50,29 @@
             </nav>
         </div>
     </div>
+
+    <section class="slider">
+        <ul class="slider__contendor">
+            <li class="slider__slide">
+                <picture>
+                <source
+                     srcset="./build/img/slide_01.avif" 
+                     type="image/avif">
+                <source
+                     srcset="./build/img/slide_01.webp" 
+                     type="image/webp">
+                <source
+                     srcset="./build/img/slide_01.jpg" 
+                     type="image/jpeg">
+                <img loading="lazy" decoding="async" src="./build/img/slide_01.jpg" lazyalt="imagen"  alt="Imagen Slide" title="Imagen Slide" clas="slider__imagen">
+                </picture>
+            </li>
+        </ul>
+    </section>
+
+    <section class="bienvenida seccion">
+        <h1 class="bienvenida__heading">Bienvenido(a) a nuestro <span>sitio web</span></h1>
+        <p class="bienvenida__texto">Te sentirás como nuevo con nuestros masajistas profesionales.</p>
+    </section>
 </body>
 </html>
