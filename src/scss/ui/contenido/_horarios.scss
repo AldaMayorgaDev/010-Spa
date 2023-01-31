@@ -5,12 +5,15 @@
 .horario{
     background-image: linear-gradient(to bottom, v.$primario 0%, v.$primario 50%, transparent 50%), url(../img/bg_horarios.jpg);
     background-repeat: no-repeat;
-    background-position: bottom, center;
+    background-position: bottom, center center;
+    background-size: 100%, auto 100%; 
+    
     color: v.$blanco;
 
     @include m.tablet{ 
         background-image: linear-gradient(to right, v.$primario 0%, v.$primario 50%, transparent 50%), url(../img/bg_horarios.jpg);
-        background-position: center, top right;
+        background-position: center, center right;
+       
     }
     &__grid{
         display: grid;
