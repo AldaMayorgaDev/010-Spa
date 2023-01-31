@@ -10,7 +10,7 @@
 
 ## Acerca de 💻 
 
-Este proyecto consiste en la creación una landing page de SpaCaroline utilizando HTML, CSS, JavaScritp, SASS, aprendiendo buenas prácticas, implementando responsive design con un enfoque Mobile First a través de Media Queries, uso de mixins y gulp.js Asi mismo, este proyecto se desarrollo utilizando el flujo de trabajo y control de versiones con git además el CSS ha sido escrito utilizando el enfoque de la metodologia estilos CSS BEM:
+Este proyecto consiste en la creación una landing page de SpaCaroline utilizando HTML, CSS, JavaScritp, SASS, aprendiendo buenas prácticas, implementando responsive design con un enfoque Mobile First a través de Media Queries, uso de mixins y gulp.js Asi mismo, este proyecto se desarrollo utilizando el flujo de trabajo y control de versiones con git, se utiliza la libreria Swiper.js para la creacion del Slider, además el CSS ha sido escrito utilizando el enfoque de la metodologia estilos CSS BEM:
 
 * .Bloque{}
 * .Bloque__Elemento{}
@@ -41,6 +41,7 @@ _Las técnologias utilizadas para el desarrollo fueron:_
 
 ## Reporte de Lighthouse 💡 
 
+<img width="820" alt="Captura de Pantalla 2023-01-30 a la(s) 21 29 42" src="https://user-images.githubusercontent.com/94152243/215655831-bdb423a1-480d-4820-8ea7-0e8671f89e11.png">
 
 
 
